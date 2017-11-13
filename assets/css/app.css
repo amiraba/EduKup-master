@@ -1,0 +1,87 @@
+.home-features-wrapper[data-columns] {
+    max-width: 120% !important;
+}
+
+.home-features-wrapper {
+    display: flex !important;
+    margin-bottom: 10px;
+}
+
+.home-feature {
+    margin: 20px !important;
+}
+
+.job_listings-map-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+
+}
+
+#map_canvas {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#map_canvas {
+    position: relative;
+}
+
+.angular-google-map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-height: 600px;
+
+}
+
+.search-radius-slider {
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+.selectParent select{
+    width: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 60px center;
+}
+.logo {
+    width: 150px;
+    height: 106px;
+}
